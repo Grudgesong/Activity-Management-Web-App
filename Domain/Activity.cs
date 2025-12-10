@@ -14,6 +14,6 @@ public bool isCancelled { get; set; }
 //location props
 public required string City { get; set; }
 public required string Venue { get; set; }
-public required double Latitude { get; set; }
-public required double Longitude { get; set; }
+public double Latitude { get; set; }
+public double Longitude { get; set; }
 }
