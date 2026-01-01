@@ -33,7 +33,7 @@ export default function HomePage() {
       </Box>
       <Typography variant="h2">Welcome to AMS</Typography>
       <Button
-        onClick={() => navigate("/activities")}
+        onClick={() => navigate("/login")}
         size="large"
         variant="contained"
         sx={{

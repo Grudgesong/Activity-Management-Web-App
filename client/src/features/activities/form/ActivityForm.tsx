@@ -13,7 +13,6 @@ import SelectInput from "../../../app/shared/components/SelectInput";
 import { categoryOptions } from "./categoryOptions";
 import DateTimeInput from "../../../app/shared/components/DateTimeInput";
 import LocationInput from "../../../app/shared/components/LocationInput";
-import type { Activity } from "../../../lib/types";
 
 export default function ActivityForm() {
   const { control, reset, handleSubmit } = useForm<ActivitySchema>({
