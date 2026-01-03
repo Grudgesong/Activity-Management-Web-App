@@ -17,4 +17,10 @@
     <PackageReference Include="MediatR" Version="13.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces/" />
+    <Folder Include="Profiles/" />
+    <Folder Include="Profiles/DTOs/" />
+  </ItemGroup>
+
 </Project>
